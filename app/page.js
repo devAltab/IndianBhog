@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWrench } from "@fortawesome/free-solid-svg-icons";
 import card1 from "/public/card/biryani.jpg"
 import card2 from "/public/card/Naan.jpg"
-import card3 from "/public/card/gulabjamun.jpg"
+import card3 from "/public/card/Naan.jpg"
 import card5 from "/public/card/momo.jpg"
 import gallery1 from "/public/gallery/gallery1.jpg"
 import gallery2 from "/public/gallery/gallery2.jpg"
@@ -38,7 +38,7 @@ export default function Home() {
           </div>
           <div className="flex  text-3xl">
             <p className="mx-3">Menu </p>
-            <h className="text-purple-600">
+            <h2 className="text-purple-600">
               <Typewriter
                 options={{
                   strings: ["Pizza", "Butter Chicken", "Kadai Paneer", "Dal Makhani", "Butter Naan"],
@@ -46,7 +46,7 @@ export default function Home() {
                   loop: true,
                 }}
               />
-            </h>
+            </h2>
           </div>
           <p className="text-lg md:text-xl text-gray-600">
             We’ve worked hard on this new menu and we’re excited to finally be able to share it with you. Book a table now to try it!
@@ -271,82 +271,7 @@ export default function Home() {
 
 
 
-      {/* <div className="m-10 bg-gray-200 ">
-        <div className=" mb-10 bg-gray-200 max-w-[1320px] mx-auto">
-          <h1 className="text-4xl text-center py-5 text-black">
-            Menu Card
-          </h1>
-        </div>
-
-        <div className="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-5 p-20px bg-gray-200">
-          <div className=" text-center shadow-2xl rounded">
-            <div className="rounded-2xl overflow-hidden">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/a30BLUQiFoc?si=tihDv8UUgni8RBon" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <h3 className="py-2 text-2xl text-black">
-              Python Tutorials - 100 Days of Code
-            </h3>
-            <p className="py-2 text-black">
-              Python is one of the most demanded programming languages in the
-              job market. Surprisingly, it is equally easy to learn and master
-              Python. Let s commit our 100 days of code to python!
-            </p>
-            <button className="justify-center bg-purple-800 rounded-xl px-4 m-2 mx-2 text-white h-9">
-              Start Watching
-            </button>
-          </div>
-
-          <div className="text-center shadow-lg rounded">
-            <div className=" rounded-2xl overflow-hidden">
-            <iframe width={500} height={250} src="https://www.youtube.com/embed/k2DSi1zGEc8?si=kmKYzHdSdxp2TQmr" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-            </div>
-            <h3 className="py-2 text-2xl text-black">
-              Python Tutorials - 100 Days of Code
-            </h3>
-            <p className="py-2 text-black">
-              Python is one of the most demanded programming languages in the
-              job market. Surprisingly, it is equally easy to learn and master
-              Python. Let s commit our 100 days of code to python!
-            </p>
-            <button className="justify-center bg-purple-800 rounded-xl px-4 m-2 mx-2 text-white h-9">
-              Start Watching
-            </button>
-          </div>
-          <div className="text-center shadow-lg rounded">
-            <div className="rounded-2xl overflow-hidden">
-            <iframe width={500} height={250} src="https://www.youtube.com/embed/k2DSi1zGEc8?si=kmKYzHdSdxp2TQmr" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-            </div>
-            <h3 className="py-2 text-2xl text-black">
-              Python Tutorials - 100 Days of Code
-            </h3>
-            <p className="py-2 text-black">
-              Python is one of the most demanded programming languages in the
-              job market. Surprisingly, it is equally easy to learn and master
-              Python. Let s commit our 100 days of code to python!
-            </p>
-            <button className="justify-center bg-purple-800 rounded-xl px-4 m-2 mx-2 text-white h-9">
-              Start Watching
-            </button>
-          </div>
-          <div className="text-center shadow-lg rounded">
-            <div className=" rounded-2xl overflow-hidden">
-            <iframe width={500} height={250} src="https://www.youtube.com/embed/k2DSi1zGEc8?si=kmKYzHdSdxp2TQmr" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-            </div>
-            <h3 className="py-2 text-2xl text-black">
-              Python Tutorials - 100 Days of Code
-            </h3>
-            <p className="py-2 text-black">
-              Python is one of the most demanded programming languages in the
-              job market. Surprisingly, it is equally easy to learn and master
-              Python. Let s commit our 100 days of code to python!
-            </p>
-            <button className="justify-center bg-purple-800 rounded-xl px-4 m-2 mx-2 text-white h-9">
-              Start Watching
-            </button>
-          </div>
-        </div>
-      </div> */}
-
+     
 
 
 

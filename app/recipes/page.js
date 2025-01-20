@@ -19,7 +19,7 @@ export default function recipes(){
 <div className=" flex justify-evenly my-14 ">
 
 
-<div className="flex-row my-auto   ">
+<div className="flex-row my-auto">
   <h1 className="text-4xl my-4">
     Veg Mayo Sandwich
   </h1>

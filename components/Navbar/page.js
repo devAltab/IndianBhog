@@ -113,7 +113,7 @@ export default function Navbar() {
                             <li className="text-purple-800 font-bold px-3 ">Home</li>
                             </Link>
                         <Link href="/service">
-                            <li className="text-purple-800 font-bold px-3 ">Srevice</li>
+                            <li className="text-purple-800 font-bold px-3 ">Service</li>
                             </Link>
                         <Link href="/#">
                             <li className="text-purple-800 font-bold px-3 ">About</li>

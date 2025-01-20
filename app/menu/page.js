@@ -2,7 +2,7 @@
 import Image from "next/image";
 import card1 from "/public/card/biryani.jpg"
 import card2 from "/public/card/Naan.jpg"
-import card3 from "/public/card/gulabjamun.jpg"
+import card3 from "/public/card/Naam.jpg"
 import card5 from "/public/card/momo.jpg"
 export default function menu (){return(<>
 

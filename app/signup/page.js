@@ -1,3 +1,4 @@
+"user client"
 export default function Signup (){
 return (<>
 <div className="bg-gray-100 my-10 p-4 max-w-3xl mx-auto rounded-lg shadow-md">
@@ -8,17 +9,17 @@ return (<>
            
 
            <div className="flex flex-col w-96 mx-auto gap-2">
-            <lable className="text-xl text-purple-950" htmlFor="username">Username</lable>
+            <label className="text-xl text-purple-950" htmlFor="username">Username</label>
             <input className="rounded h-8 p-2 border-2  border-purple-500  placeholder-black" type="text" id="username" placeholder="Enter username" />
            </div>
            <div className="flex flex-col w-96 mx-auto gap-2">
-            <lable className="text-xl text-purple-950" htmlFor="email">Email</lable>
+            <label className="text-xl text-purple-950" htmlFor="email">Email</label>
             <input className="rounded h-8 p-2 border-2  border-purple-500  placeholder-black" type="text" id="email" placeholder="Enter Email" />
            </div>
 
            <div className="flex flex-col w-96 mx-auto gap-2">
-            <lable className="text-xl text-purple-950" htmlFor="number">Password</lable>
-            <input className="rounded h-8 p-2 text-purple-950 border-2 border-purple-500 placeholder-black" type="number" id="number" placeholder="Enter Password" />
+            <label className="text-xl text-purple-950" htmlFor="number">Password</label>
+            <input className="rounded h-8 p-2 text-purple-950 border-2 border-purple-500 placeholder-black" type="password" id="number" placeholder="Enter Password" />
            </div>
 
 
