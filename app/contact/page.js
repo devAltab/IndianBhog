@@ -7,19 +7,19 @@ export default function contact() {
       </div>
       <form className="py-4 mt-4 border-t flex flex-col gap-5">
 
-
+      <div className="flex flex-col w-96 mx-auto gap-2">
+          <label className="text-xl text-purple-950" htmlFor="email">Email</label>
+          <input className="rounded h-8 p-2 border-2  border-purple-500  placeholder-black" type="email" id="email" placeholder="Enter Email" />
+        </div>
 
         <div className="flex flex-col w-96 mx-auto gap-2">
           <label className="text-xl text-purple-950" htmlFor="number">Password</label>
-          <input className="rounded h-8 p-2 text-purple-950 border-2 border-purple-500 placeholder-black" type="number" id="number" placeholder="Enter Password" />
+          <input className="rounded h-8 p-2 text-purple-950 border-2 border-purple-500 placeholder-black" type="password" id="number" placeholder="Enter Password" />
         </div>
+        
         <div className="flex flex-col w-96 mx-auto gap-2">
-          <label className="text-xl text-purple-950" htmlFor="email">Email</label>
-          <input className="rounded h-8 p-2 border-2  border-purple-500  placeholder-black" type="text" id="email" placeholder="Enter Email" />
-        </div>
-        <div className="flex flex-col w-96 mx-auto gap-2">
-          <label className="text-xl text-purple-950" htmlFor="email">Text</label>
-          <textarea className="h-32 rounded p-2 border-2  border-purple-500  placeholder-black" type="text" id="email" placeholder="Enter text" />
+          <label className="text-xl text-purple-950" htmlFor="text">Text</label>
+          <textarea className="h-32 rounded p-2 border-2  border-purple-500  placeholder-black" type="text" id="text" placeholder="Enter text" />
         </div>
         <button className="bg-purple-700 w-96 text-white mx-auto my-5 p-3 txt-white font-bold" type="login">login</button>
       </form>

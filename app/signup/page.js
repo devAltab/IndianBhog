@@ -10,11 +10,11 @@ return (<>
 
            <div className="flex flex-col w-96 mx-auto gap-2">
             <label className="text-xl text-purple-950" htmlFor="username">Username</label>
-            <input className="rounded h-8 p-2 border-2  border-purple-500  placeholder-black" type="text" id="username" placeholder="Enter username" />
+            <input className="rounded h-8 p-2 border-2  border-purple-500  placeholder-black" type="username" id="username" placeholder="Enter username" />
            </div>
            <div className="flex flex-col w-96 mx-auto gap-2">
             <label className="text-xl text-purple-950" htmlFor="email">Email</label>
-            <input className="rounded h-8 p-2 border-2  border-purple-500  placeholder-black" type="text" id="email" placeholder="Enter Email" />
+            <input className="rounded h-8 p-2 border-2  border-purple-500  placeholder-black" type="email" id="email" placeholder="Enter Email" />
            </div>
 
            <div className="flex flex-col w-96 mx-auto gap-2">
